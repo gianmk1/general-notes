@@ -19,3 +19,4 @@ NB. "Full and Fast" config can cause a lot of noise. It's recommended to look fo
 - Python script to extract CVEs from Nmap scans
 - Python script to calculate CVSS score with the CVE discovered and Nessus/OpenVAS
 - Performe a web application scan also with OpenVAS
+- Python script to automatic rename reports specifying the configuration used
