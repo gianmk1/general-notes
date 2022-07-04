@@ -1,9 +1,9 @@
 # General notes
 
 ## OpenVAS
-1. Scan with "Full And Fast" - "All IANA assigned TCP" - "OpenVAS default scanner"
-2. Scan with "Full And Fast" - "All IANA assigned TCP" - "CVE scanner"
-3. Scan with "Full And Fast" - "All IANA assigned TCP" - "OpenVAS default scanner" + CREDENTIALS
+1. External scan with "Full And Fast" - "All IANA assigned TCP" - "OpenVAS default scanner"
+2. External scan with "Full And Fast" - "All IANA assigned TCP" - "CVE scanner"
+3. Internal scan with "Full And Fast" - "All IANA assigned TCP" - "OpenVAS default scanner" + CREDENTIALS
 
 ## Nerve
 An alternative vulnerability scanner to try, https://github.com/PaytmLabs/nerve
