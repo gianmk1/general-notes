@@ -7,9 +7,6 @@
 
 NB. "Full and Fast" config can cause a lot of noise. It's recommended to look for alternative scanning configurations.
 
-## Nerve
-An alternative vulnerability scanner to try, https://github.com/PaytmLabs/nerve
-
 
 ## Nessus notes
 - Is possible to change the license code without losing the scans already done
