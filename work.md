@@ -20,3 +20,7 @@ NB. "Full and Fast" config can cause a lot of noise. It's recommended to look fo
 - Python script to calculate CVSS score with the CVE discovered and Nessus/OpenVAS
 - Performe a web application scan also with OpenVAS
 - Python script to automatic rename reports specifying the configuration used
+
+
+## Port scanning
+- Alternative NSE script for vulnerabilities: https://null-byte.wonderhowto.com/how-to/easily-detect-cves-with-nmap-scripts-0181925/
