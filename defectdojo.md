@@ -21,8 +21,7 @@ newgrp docker
 ```
 
 ## Download source code
-Source code available on current link: https://github.com/DefectDojo/django-DefectDojo/releases
-Download 2.12.0 version
+Source code available on current link: https://github.com/DefectDojo/django-DefectDojo/releases , download 2.12.0 version
 
 ## Create database on postgresql
 ```
