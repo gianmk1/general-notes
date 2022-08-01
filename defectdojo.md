@@ -20,11 +20,9 @@ sudo usermod -aG docker $USER
 newgrp docker
 ```
 
-## Clone of repo
-```bash
-git clone https://github.com/DefectDojo/django-DefectDojo
-cd django-DefectDojo
-```
+## Download source code
+Source code available on current link: https://github.com/DefectDojo/django-DefectDojo/releases
+Download 2.12.0 version
 
 ## Create database on postgresql
 ```
