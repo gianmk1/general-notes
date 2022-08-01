@@ -66,4 +66,4 @@ _Check defectdojo installation on Kali vm_
 ## Post installation
 1. Select Europe/Rome datatime 
 2. Enable "deduplication findins"
-3. 
+3. Create normal user/group for scan import
