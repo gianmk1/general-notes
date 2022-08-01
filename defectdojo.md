@@ -48,3 +48,10 @@ grant all privileges on database <dbname> to <username> ;  # grant all privilege
 ./dc-up.sh postgres-redis
 docker-compose logs initializer | grep "Admin password:"
 ```
+## Docker build behind a proxy
+_Check defectdojo installation on Kali vm_
+
+## Post installation
+1. Select Europe/Rome datatime 
+2. Enable "deduplication findins"
+3. 
