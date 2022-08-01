@@ -39,20 +39,19 @@ grant all privileges on database <dbname> to <username> ;  # grant all privilege
 ```
 
 ## Edit env variables
-- Edit /docker/environments/postgres-redis.env
-DD_DATABASE_URL=postgresql://defectdojo:defectdojo@postgres:5432/defectdojo
-DD_DATABASE_ENGINE=django.db.backends.postgresql
-DD_DATABASE_HOST=postgres
-DD_DATABASE_PORT=5432
-DD_DATABASE_NAME=defectdojo
-DD_DATABASE_USER=defectdojo
-DD_DATABASE_PASSWORD=defectdojo
-DD_TEST_DATABASE_NAME=test_defectdojo
-DD_TEST_DATABASE_URL=postgresql://defectdojo:defectdojo@postgres:5432/test_defectdojo
-DD_CELERY_BROKER_URL=redis://redis:6379/0
+Edit /docker/environments/postgres-redis.env
+- DD_DATABASE_URL=postgresql://defectdojo:defectdojo@postgres:5432/defectdojo
+- DD_DATABASE_ENGINE=django.db.backends.postgresql
+- DD_DATABASE_HOST=postgres
+- DD_DATABASE_PORT=5432
+- DD_DATABASE_NAME=defectdojo
+- DD_DATABASE_USER=defectdojo
+- DD_DATABASE_PASSWORD=defectdojo
+- DD_TEST_DATABASE_NAME=test_defectdojo
+- DD_TEST_DATABASE_URL=postgresql://defectdojo:defectdojo@postgres:5432/test_defectdojo
+- DD_CELERY_BROKER_URL=redis://redis:6379/0
 
-
-- DEPRECATO: Edit dojo/settings/settings.dist.py (DD_DATABASE*)
+DEPRECATO: Edit dojo/settings/settings.dist.py (DD_DATABASE*)
 
 ## Build and Run
 ```bash
