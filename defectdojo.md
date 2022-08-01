@@ -25,8 +25,10 @@ cd django-DefectDojo
 ```
 
 ## Create database on postgresql
-- Creare database definitivo
-- Creare database di test
+```
+sudo -u postgres createdb <dbname-def>  # definitive db
+sudo -u postgres createdb <dbname-test>  # test db
+```
 
 ## Create user postgresql
 ```
