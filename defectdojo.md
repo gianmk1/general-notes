@@ -5,7 +5,7 @@
 docker rm -vf $(docker ps -aq)
 docker rmi -f $(docker images -aq)
 docker stop $(docker ps -a -q)
-docker remove $(docker ps -a -q)
+docker purge $(docker ps -a -q)
 ```
 NB. Assicurarsi di aver rimosso tutto
 
